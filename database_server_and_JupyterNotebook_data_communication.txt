@@ -1,0 +1,9 @@
+xampp software has been installed to generate databeses and their table like structure. i have generate a table called Person with the PersonID, Last Name, First Name, Address and city respectively as column name. 
+
+like tensorflow, from anaconda command prompt we have installed mysql connector with the following commnad line
+
+pip install mysql-connector
+
+after this package has been installed successfully, mysql.connector has been imported as sql in jupyter notebook. Applying sql.connect as link between jupyter notebook and xampp server has been established. after this an query of a PersonID column data of persons table has been established. after execution and fetch of the desired data, the 1st row of PersonID column data has been displayed into the jupyter notebook. 
+
+So a complete execution of xampp server-jupyter notebook link and the fetch of the desired query data has been demonstrated here. 

@@ -1,0 +1,20 @@
+Test 1#
+
+after ananconda software has been installed. from anaconda command prompt 
+
+pip install tensorflow 
+
+has been applied to download and install tensorflow. after it has been completed successfully, tensorflow has been imported in jupyter notebook to work with it. Tensor flow provides the feature of data processing, Machine Learning Model structuring and last but not the least it help us with feature of model evaluation. 
+
+Data preprocessing, 
+
+In this stage, the data has been divided into train and test data. training set of data is used to train the neural network model. test set of data is used to evaluate the already trained data.the minst (but train and test dataset)dataset has been normalized next.
+
+Model structuring
+
+in our model there are three layers. the input later has 128 neurons, there is only one hidden layers and it has 128 layers. the last output layer has 10 neurons because we are classifying the input data into 10 classes. in the input and hidden layer we have used 'relu' activation function and output layer 'softmax' activation function has been used.in case of bias and overfeating and underfeating, we either increase or decrease the complexity of the model interms of number of layers or number of neurons in each layer. the number of epochs also play a important role to remove the underfeating of the model into the desired input-output dataset. 
+
+Model evaluation
+
+the tensorflow also provides features to evaluate the trained model. we need to see as to how accurate the trained model is to predict the output against input test dataset. the model performance is as good as 97% which is very impressive.
+

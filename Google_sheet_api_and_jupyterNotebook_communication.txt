@@ -1,0 +1,7 @@
+An excel sheet with the name Tanvir Anwar Excel Sheet has been established at Google sheet site. the lined has been set accessable to any manully at the share obtion. 
+
+In the jupyter notebook, the link of the google excel sheet has been copied and pasted to python code. 
+
+to work the rest of the coding, pandas has been imported as pd. pandas has an object called ExcelFile to access the desired file. 
+
+After this pd.read-excel we managed to read the desired sheet of the excel file and then displayed the only one row of data in jupyter notebook. the row of datas are 5 and 6 as shown in the code.  
